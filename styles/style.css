@@ -3,10 +3,11 @@ div {
 }
 
 .page {
-  margin: 0;
+  margin-right: 0;
+  margin-left: 0;
   min-width: 1100px;
   max-width: 1600px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica Neue, Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
