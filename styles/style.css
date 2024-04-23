@@ -1,5 +1,14 @@
+div {
+  border: solid red 1px;
+}
+
 .page {
-  /* Agrega las propiedades de la clase page aquí */
+  margin: 0;
+  min-width: 1100px;
+  max-width: 1600px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .header {
@@ -14,14 +23,21 @@
 }
 
 .nav {
-  /* Agrega las propiedades flex aquí */
+  height: 80px;
+  justify-content: space-between;
+  display: flex;
 }
 
 .nav__logo {
+  height: 80px;
+  width: 57px;
 }
 
 .nav__links {
-  /* Restablece los estilos predeterminados de list aquí */
+  display: flex;
+  column-gap: 20px;
+  list-style: none;
+  text-decoration: none;
   margin: 8px 0 0;
 }
 
@@ -32,9 +48,18 @@
 }
 
 .header__title {
+  max-width: 601px;
+  margin: 128px 0 0;
+  font-size: 66px;
+  line-height: 76px;
+  font-weight: 500;
 }
 
 .header__description {
+  margin: 32px 0 0;
+  max-width: 532px;
+  font-size: 20px;
+  line-height: 30px;
 }
 
 .header__image {
@@ -42,6 +67,7 @@
 }
 
 .header__footer {
+  border: none;
   margin-top: auto;
   width: 100%;
   display: flex;
